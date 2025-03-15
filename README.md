@@ -1,69 +1,52 @@
-# Welcome to your Lovable project
+# Collab Code Editor
 
-## Project info
+## Description
+Collab Code Editor is a secure and efficient platform designed to facilitate cryptocurrency storage and exchange. It provides users with a seamless experience to manage their digital assets while ensuring robust security mechanisms.
 
-**URL**: https://lovable.dev/projects/49d830e0-2be7-4c31-bf03-88a7472df4fe
+## Technologies Used
+- **Backend:** Node.js, Express.js
+- **Frontend:** React.js, Tailwind CSS
+- **Database:** MongoDB
+- **Authentication:** JWT (JSON Web Tokens)
+- **API Integration:** Web3.js, CoinGecko API
+- **Cloud Services:** AWS S3 for storage, Firebase for notifications
 
-## How can I edit this code?
+## Features
+- Secure cryptocurrency storage and exchange
+- User authentication with JWT
+- Real-time price tracking using CoinGecko API
+- Multi-factor authentication for added security
+- Transaction history tracking
+- Responsive UI with modern design
 
-There are several ways of editing your application.
+## How to Use
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/your-username/exchange-haven-vault.git
+   ```
+2. **Navigate to the project directory**
+   ```sh
+   cd exchange-haven-vault
+   ```
+3. **Install dependencies**
+   ```sh
+   npm install
+   ```
+4. **Set up environment variables**
+   - Create a `.env` file in the root directory and add the necessary keys for database connection, API keys, etc.
+5. **Start the development server**
+   ```sh
+   npm start
+   ```
+6. **Access the application**
+   - Open `http://localhost:3000` in a web browser.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/49d830e0-2be7-4c31-bf03-88a7472df4fe) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
+## Dependencies
+- Node.js
+- Express.js
+- MongoDB
+- React.js
+- Web3.js
 - Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/49d830e0-2be7-4c31-bf03-88a7472df4fe) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+- JWT
+- Firebase
