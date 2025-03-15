@@ -1,6 +1,5 @@
 # Collab Code Editor
 
-## Description
 Collab Code Editor is a secure and efficient platform designed to facilitate cryptocurrency storage and exchange. It provides users with a seamless experience to manage their digital assets while ensuring robust security mechanisms.
 
 ## Technologies Used
